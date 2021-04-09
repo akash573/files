@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+}
+.need{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkblue;
+    height: 25px;
+    font-size: 10px;
+    font-family: -webkit-pictograph;
+}
+.list {
+    display: flex;
+    padding-left: 10em;
+}
+.list li {
+    list-style: none;
+    padding: 0 1em;
+}
+.list li a {
+ text-decoration: none;
+ color: white;
+}
+.listone {
+    display: flex;
+    padding-right: 10em;
+}
+.listone li {
+    list-style: none;
+    padding: 0 1em;
+}
+.listone li a {
+  text-decoration: none;
+  color: white;
+}
+#box{
+    position: fixed;
+    height:100%;
+    width:0px;
+    background-color: slateblue;
+    transition: all .5s ease;
+    right: 0;
+    font-size: 26px;
+    color: chartreuse;
+    overflow-y: scroll;
+    overflow-x: scroll;
+
+}
+.nick{
+    transition: all 5s ease;
+    width: 350px!important;
+    
+
+}
+#two{
+    position: absolute;
+    display: none;
+    transition: all .5s ease;
+}
+

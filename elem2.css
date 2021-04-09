@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    background-color: rgb(64 107 222);
+}
+.main img{
+    width: 100px;
+    height: 70px;
+    padding-left: 6em;
+}
+ul.listtwo {
+    display: flex;
+    padding-right: 5em;
+    padding-left: 10em;
+}
+.listtwo li {
+    list-style: none;
+    padding: 0 8px;
+}
+.listtwo li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1em;
+    font-family: -webkit-pictograph;
+}
+.listtwo li a:hover {
+    color: red;
+    transition: all 2s ease;
+    font-size: 12px;
+}
+.news{
+    margin-left: 15em;
+    font-family: -webkit-pictograph;
+}
+.news2{
+    margin-left: 15em;
+    font-family: -webkit-pictograph;
+}
+.bg{
+    background-color: rgb(26, 53, 207);
+    margin-right: 8em;
+}
+#butt {
+    background-color: slateblue;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+#butt:hover {
+    background-color: yellow;
+    transition: all 1s ease;
+    font-size: 15px;
+    color: red;
+}
+
+

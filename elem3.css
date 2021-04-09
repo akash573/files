@@ -1,0 +1,145 @@
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: rgb(32, 75, 218);
+    color: white;
+    font-family: -webkit-pictograph;
+    padding-bottom: 2em;
+}
+.digi li, .digi2 li, .tigi li, .tigi2 li {
+    list-style: none;
+}
+.cent{
+    width: 1100px;
+    height: 270px;
+    text-align: center;
+    /* align-items: center; */
+    background-image:url('../image/3c8f12b0606ad428cacccc09fd98246c.jpg');
+    box-shadow: 10px 1px 84px 26px rgb(21, 124, 93);
+    margin:0px 8em;
+    color: white;  
+}
+.head{
+    font-size: 20px;
+    padding: 2em 0;
+    font-family: -webkit-pictograph;
+}
+.cent img {
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    padding: 0 1em;
+    justify-content: space-evenly;
+}
+.cont{
+ width: 350px;
+ height: 350px;
+ background-color: slateblue;
+ font-size: 12px;
+}
+#first, #seco, #the{
+    width: 20em;
+    height: 2em;
+}
+#four {
+    width: 20em;
+    height: 6em;
+    text-align: -webkit-center;
+}
+input#cap, #captcha {
+    width: 124px;
+    height: 2em;
+    font-size: 20px;
+    text-align: center;
+}
+#fiv {
+    width: 20em;
+    height: 3em;
+    background: red;
+}
+#fiv:hover {
+    background-color: blueviolet;
+    transition: all 2s ease;
+}
+
+@media(max-width: 768px){
+    body{
+        overflow: auto;
+        margin: 0;
+    
+    }
+    .html{
+        font-size: 5px;
+    }
+    .list{
+        display: none;
+    }
+    .listone{
+        display: none;
+    }
+    .listtwo li a {
+        display: none;
+    }
+    .main img{
+        width: 50px;
+        padding-left: 5px;
+    }
+    .cent{
+        width: 400px;
+        margin-right: 30px;
+        margin-top: 20px;
+        height: 200px;
+        
+    }
+    .cent h1{
+        font-size: 8px;
+    }
+    .cent img{
+        width: 15px;
+        height: 20;
+        flex-wrap: wrap;
+    }
+    .news{
+       flex-wrap: wrap;
+       font-size: 5px;
+    }
+    .news2{
+        flex-wrap: wrap;
+        font-size: 5px;
+     }
+     .foot{
+         flex-wrap: wrap;
+         font-size: 5px;
+     }
+     .mob i.fa.fa-bars {
+        display: block;
+    }
+     
+    }
+    
+    
+@media(max-width:368px){
+    .cent{
+        width: 150px;
+        height: 150px;
+        margin: 5px 50px;
+        }
+        .mob{
+            display: block;
+            size: 10px;
+        }
+        
+        .cent img{
+            width: 5px;
+            height: 10px;
+            flex-wrap: wrap;
+            
+        }
+        }
+@media(min-width:868px){
+    .mob{
+        display: none;
+    }
+}
